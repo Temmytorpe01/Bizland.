@@ -1,1 +1,383 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.top-content-firstline {
+  background-color: #014f86;
+  display: flex;
+  line-height: 50px;
+  justify-content: space-between;
+}
+
+.top-content-firstline-partone {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  padding-left: 5%;
+}
+
+.top-content-firstline-partone a {
+  color: white;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.top-content-firstline-partone a a:hover {
+  text-decoration: visible;
+}
+
+.top-content-firstline-partone a i {
+  padding-right: 10px;
+}
+
+.top-content-firstline-parttwo {
+  padding-right: 5%;
+}
+
+.top-content-firstline-parttwo a {
+  color: #bcb8b1;
+}
+
+.top-content-firstline-parttwo a i {
+  padding: 0 10px;
+}
+
+.top-content-secondline {
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: 30% auto;
+  height: 70px;
+  align-items: center;
+}
+
+.top-content-secondline-logo {
+  padding-left: 100px;
+  color: #212925;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.top-content-secondline-logo i {
+  color: #014f86;
+  font-size: 8px;
+}
+
+.top-content-secondline-link a {
+  color: #212925;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 20px;
+  border-bottom: 2px solid #014f86;
+  padding: 14px 16px;
+}
+
+.homepage {
+  background-image: url("/images/home background.jpg");
+  height: 500px;
+}
+
+.homepage .welcome {
+  padding: 140px 100px 0 100px;
+}
+
+.homepage .welcome h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+}
+
+.homepage .welcome h2 span {
+  color: #014f86;
+}
+
+.homepage .welcome p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  color: #212925;
+}
+
+.homepage .welcome-phase2 {
+  padding: 40px 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.homepage .welcome-phase2 button {
+  padding: 10px 20px;
+  background-color: #014f86;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.homepage .welcome-phase2 button:hover {
+  cursor: pointer;
+}
+
+.homepage .welcome-phase2 a {
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.homepage .welcome-phase2 a i {
+  border: 1px solid #014f86;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.homepage .welcome-phase2:hover {
+  cursor: pointer;
+}
+
+.after-welcomepage {
+  padding: 50px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 30px;
+}
+
+.after-welcomepage .after-welcomepage-firstcolumn, .after-welcomepage .after-welcomepage-secondcolumn, .after-welcomepage .after-welcomepage-thirdcolumn, .after-welcomepage .after-welcomepage-forthcolumn {
+  background-color: #014f86;
+  height: 220px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.after-welcomepage .after-welcomepage-firstcolumn i, .after-welcomepage .after-welcomepage-secondcolumn i, .after-welcomepage .after-welcomepage-thirdcolumn i, .after-welcomepage .after-welcomepage-forthcolumn i {
+  font-size: 30px;
+  color: #014f86;
+  padding: 15px 0;
+}
+
+.after-welcomepage .after-welcomepage-firstcolumn h3, .after-welcomepage .after-welcomepage-secondcolumn h3, .after-welcomepage .after-welcomepage-thirdcolumn h3, .after-welcomepage .after-welcomepage-forthcolumn h3 {
+  padding: 15px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.after-welcomepage .after-welcomepage-firstcolumn p, .after-welcomepage .after-welcomepage-secondcolumn p, .after-welcomepage .after-welcomepage-thirdcolumn p, .after-welcomepage .after-welcomepage-forthcolumn p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: #bcb8b1;
+}
+
+.thirdlayer {
+  background-color: rgba(194, 225, 245, 0.3);
+  padding: 30px 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 30px;
+}
+
+.thirdlayer .thirdlayer-rowone {
+  text-align: center;
+  margin-bottom: 30px;
+  grid-column: 1/span3;
+}
+
+.thirdlayer .thirdlayer-rowone a {
+  text-decoration: none;
+  background: #c2e1f5;
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #014f86;
+}
+
+.thirdlayer .thirdlayer-rowone h2 {
+  margin: 20px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #464444;
+}
+
+.thirdlayer .thirdlayer-rowone h2 span {
+  color: #014f86;
+}
+
+.thirdlayer .thirdlayer-rowone p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-size: 18px;
+}
+
+.thirdlayer .thirdlayer-rowthree .thirdlayer-rowthree-one h3 {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #212925;
+  line-height: 25px;
+}
+
+.thirdlayer .thirdlayer-rowthree .thirdlayer-rowthree-one p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  margin: 20px 0;
+}
+
+.thirdlayer .thirdlayer-rowthree .thirdlayer-rowthree-two {
+  margin-top: 40px;
+}
+
+.thirdlayer .thirdlayer-rowthree .thirdlayer-rowthree-two i {
+  position: absolute;
+  font-size: 25px;
+  margin-top: 20px;
+  color: #014f86;
+  background-color: white;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.thirdlayer .thirdlayer-rowthree .thirdlayer-rowthree-two span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 60px;
+  color: #212925;
+}
+
+.thirdlayer .thirdlayer-rowthree .thirdlayer-rowthree-two p {
+  margin-left: 65px;
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.thirdlayer .thirdlayer-rowthree .thirdlayer-rowthree-three {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.thirdlayer .thirdlayer-rowthree .thirdlayer-rowthree-three i {
+  font-size: 25px;
+  position: absolute;
+  margin-top: 20px;
+  color: #014f86;
+  background-color: white;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.thirdlayer .thirdlayer-rowthree .thirdlayer-rowthree-three span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 60px;
+  color: #212925;
+}
+
+.thirdlayer .thirdlayer-rowthree .thirdlayer-rowthree-three p {
+  margin-left: 65px;
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.thirdlayer .thirdlayer-rowthree p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: #5c5b5b;
+}
+
+.volume {
+  padding: 0 100px;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.volume .volume-sectionone ul, .volume .volume-sectiontwo ul {
+  list-style-type: none;
+  line-height: 40px;
+}
+
+.volume .volume-sectionone ul li, .volume .volume-sectiontwo ul li {
+  border-bottom: 10px solid #014f86;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.volume .volume-sectionone ul li span, .volume .volume-sectiontwo ul li span {
+  margin-left: 420px;
+}
+
+.chart {
+  padding: 0 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  margin-top: 80px;
+}
+
+.chart .chart-one {
+  background-color: rgba(194, 225, 245, 0.3);
+  text-align: center;
+  line-height: 40px;
+}
+
+.chart .chart-one i {
+  font-size: 30px;
+  color: #014f86;
+}
+
+.chart .chart-one p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.services-gridcontainer {
+  padding: 0 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 20px;
+  margin-top: 60px;
+}
+
+.services-gridcontainer .services-gridcontainer-heading {
+  grid-column: 1/span3;
+  text-align: center;
+}
+
+.services-gridcontainer .services-gridcontainer-heading a {
+  background: #c2e1f5;
+  padding: 4px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.services-gridcontainer .services-gridcontainer-heading h2 {
+  margin: 20px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: #212925;
+}
+
+.services-gridcontainer .services-gridcontainer-heading h2 span {
+  color: #014f86;
+}
+
+.services-gridcontainer .services-gridcontainer-heading p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+.services-gridcontainer .service-gridcontainer-column {
+  text-align: center;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.services-gridcontainer .service-gridcontainer-column i {
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  color: #014f86;
+  background: #c2e1f5;
+  margin-bottom: 10px;
+}
+
+.services-gridcontainer .service-gridcontainer-column h3 {
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
