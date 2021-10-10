@@ -421,9 +421,88 @@
         }
     }
 }
-pricing{
+.pricing{
     padding: 0 100px;
+    margin-bottom: 50px;
     .pricing-head{
-        
+        text-align: center;
+        margin-top: 30px;
+        a{
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(194, 225, 245);
+            border-radius: 10px;
+            padding: 4px 10px;
+            color: $secondarycolor;
+            font-size: 15px;
+        }
+        h2{
+            margin: 20px 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+            font-size: 30px;
+            color: #212925;
+            span{
+                color: $secondarycolor;
+            }  
+        }
+        p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18px;
+        }
+    }
+    .pricing-gridpart{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        text-align: center;
+        margin-top: 20px;
+        .pricing-gridpart-one{
+            border: 1px solid rgba($color: $tertiarycolor, $alpha: 0.1);
+            border-radius: 5px;
+            line-height: 40px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            .gridpart-head{
+                background-color: rgba($color: $tertiarycolor, $alpha: 0.1);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 18px;
+                height: 50px;
+                margin-bottom: 30px;
+
+                a{
+                    text-decoration: none;
+                    color: gray;
+                    span{
+                        .blueskew{
+                            background-color: $secondarycolor;
+                        }
+                    }
+
+                }
+            }
+            .gridpart-foot{
+               @extend .gridpart-head;
+               margin-top: 30px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    background-color: $secondarycolor;
+                    padding: 4px 15px;
+                    border-radius: 5px;
+                    
+                }
+            }
+            h4{
+                font-family: Arial, Helvetica, sans-serif;
+                color: $tertiarycolor;
+                .dollar{
+                    color: $secondarycolor;
+                    font-size: 20px;
+                }
+                .figure{
+                    color: $secondarycolor;
+                    font-size: 40px;
+                }
+            }
+        }
     }
 }
