@@ -553,4 +553,167 @@
   color: #014f86;
   font-size: 40px;
 }
+
+.contact {
+  padding: 0 100px;
+  margin-top: 100px;
+}
+
+.contact .contacthead {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact .contacthead a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #c2e1f5;
+  border-radius: 10px;
+  padding: 4px 10px;
+  color: #014f86;
+  font-size: 15px;
+}
+
+.contact .contacthead h2 {
+  margin: 20px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: #014f86;
+}
+
+.contact .contacthead h2 span {
+  color: #014f86;
+}
+
+.contact .contacthead p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+.contact .contactbody {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  margin: 40px 0;
+  line-height: 30px;
+}
+
+.contact .contactbody i {
+  color: #014f86;
+  font-size: 30px;
+  border: 2px dotted #014f86;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.contact .contactbody h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact .contactbody p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.maparea {
+  padding: 0 100px;
+  display: flex;
+}
+
+.maparea .maparea-one {
+  margin-right: 30px;
+}
+
+.maparea .maparea-two {
+  line-height: 60px;
+}
+
+.maparea .maparea-two .input-type {
+  display: flex;
+}
+
+.maparea .maparea-two .input-type .name {
+  width: 250px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.maparea .maparea-two .input-type .email {
+  width: 250px;
+  padding: 10px;
+}
+
+.maparea .maparea-two .select-type input {
+  width: 520px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.maparea .maparea-two .textarea textarea {
+  width: 520px;
+  height: 150px;
+  margin: 15px 0 0px 10px;
+  padding: 10px;
+}
+
+.maparea .maparea-two .button button {
+  text-align: center;
+  padding: 10px;
+  background-color: #014f86;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 200px;
+}
+
+.Newsletter {
+  background-color: #c2e1f5;
+  height: 250px;
+  margin-top: 50px;
+  padding-top: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #131212;
+}
+
+.Newsletter input {
+  width: 500px;
+  padding: 10px;
+}
+
+.Newsletter span {
+  background-color: #014f86;
+  padding: 10px;
+  color: white;
+}
+
+.footer {
+  padding: 0 100px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 400px;
+  line-height: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer .footer-columntwo i {
+  color: #014f86;
+  padding: 5px;
+}
+
+.footer .footer-columnthree i {
+  color: #014f86;
+  padding: 5px;
+}
+
+.footer .footer-columnfour a {
+  background-color: #014f86;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.footer .footer-columnfour a i {
+  font-size: 20px;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
